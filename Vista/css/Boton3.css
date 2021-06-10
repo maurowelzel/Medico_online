@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content{
+	display: flex;
+	
+	position: absolute;
+	top:50%;
+	left: 20%;
+}
+
+.titulo{
+		position: absolute;
+		top:50px;
+		left: 41%;
+		font-family: Arial;
+		color: white;
+
+}
+.button1{
+width: 300px;
+height: 50px;
+font-size: 24px;
+margin: auto;
+border-style: none;
+background: rgb(4,150,213);
+color: white;
+transition: all 300ms;
+border-radius: 50px;
+
+}
+
+.button1:hover{
+	background: rgb(25,200,190);
+	transition: all 300ms;
+	cursor: pointer;
+
+}
+
+
+.buttonPaciente1{
+
+}
+
+.div{
+width: 240px;
+height: 50px;
+font-size: 24px;
+margin: auto;
+border-style: none;
+background: rgb(4,150,213);
+color: white;
+transition: all 300ms;
+border-radius: 50px;
+margin: 10px auto;
+margin-left: 100px;
+margin-bottom: 10px;
+display: table-cell;
+}

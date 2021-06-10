@@ -1,0 +1,52 @@
+*{
+	margin: 2;
+	padding: 2;
+	box-sizing: border-box;
+}
+.titulo1{
+margin-left: 5px;
+		position: absolute;
+		top:50px;
+		left: 41%;
+		font-family: Arial;
+		font-size: 30px;
+		color: white;
+
+}
+
+.buttonRegMedi{
+width: 200px;
+height: 50px;
+font-size: 24px;
+margin: auto;
+border-style: none;
+background: rgb(4,150,213);
+color: white;
+transition: all 300ms;
+border-radius: 50px;
+margin: 10px auto;
+top:50px;
+left: 60%;
+}
+
+.buttonRegMedi:hover{
+	background: rgb(25,200,190);
+	transition: all 300ms;
+	cursor: pointer;
+
+}
+
+.cajas{
+	width: 109%;
+	padding: 5px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border:none;
+	font-size: 14px;
+}
+
+.paciente{
+	top:150px;
+	margin-left: 200px;
+	margin-bottom: -50px;
+}
